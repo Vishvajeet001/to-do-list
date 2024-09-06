@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: #06245c;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.gridList{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#taskInput,#dateInput{
+    padding: 10px;
+    font-size: 15px;
+}
+
+#addTaskButton{
+    background-color: rgb(14, 171, 18);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 12px;
+    width: 100px;
+}
+
+.rmbtn{
+    background-color: rgb(151, 18, 18);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+span{
+    text-align: center;
+    font-size: 18px;
+}
+
+footer{
+    margin-top: 20px;
+}
